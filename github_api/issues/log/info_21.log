@@ -1,0 +1,17 @@
+(28, 'Operation timed out after 80004 milliseconds with 44616 out of 350573 bytes received')
+12757 crawler success
+974684 crawler success
+12999108 crawler success
+35953028 crawler success
+(28, 'Operation timed out after 80001 milliseconds with 394210 out of 485880 bytes received')
+(28, 'Operation timed out after 80000 milliseconds with 0 bytes received')
+7332776 crawler success
+18784033 crawler success
+52478784 crawler success
+901621 crawler success
+Traceback (most recent call last):
+  File "issues_get.py", line 92, in <module>
+    issues_get()
+  File "issues_get.py", line 32, in issues_get
+    repo_id=repo.split(" ")[0]
+AttributeError: 'NoneType' object has no attribute 'split'

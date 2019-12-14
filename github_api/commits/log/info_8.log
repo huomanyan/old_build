@@ -1,0 +1,11 @@
+commits_get.py:94: Warning: (1265L, u"Data truncated for column 'created_at' at row 1")
+  cur.execute(insert_commits, (repo_id, created_at, author,committer,sha))
+https://api.github.com/repos/Kademi/kademi-dev 70aeed78ef6f8dc4200f88df7f9e98f1f9e9a20c
+https://api.github.com/repos/Kademi/kademi-dev 70aeed78ef6f8dc4200f88df7f9e98f1f9e9a20c
+13087932 crawler success
+Traceback (most recent call last):
+  File "commits_get.py", line 104, in <module>
+    commits_get()
+  File "commits_get.py", line 30, in commits_get
+    repo_id=repo.split(" ")[0]
+AttributeError: 'NoneType' object has no attribute 'split'

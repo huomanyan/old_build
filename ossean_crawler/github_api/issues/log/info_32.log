@@ -1,0 +1,22 @@
+(35, 'Unknown SSL protocol error in connection to api.github.com:443 ')
+5342282 crawler success
+(28, 'Operation timed out after 80002 milliseconds with 147080 out of 351912 bytes received')
+7917616 crawler success
+1951330 crawler success
+39027 crawler success
+54811 crawler success
+9924777 crawler success
+(28, 'Operation timed out after 80000 milliseconds with 631864 out of 686591 bytes received')
+20047 crawler success
+(28, 'Operation timed out after 80001 milliseconds with 0 bytes received')
+55029748 crawler success
+3601879 crawler success
+20635913 crawler success
+28904919 crawler success
+7930999 crawler success
+Traceback (most recent call last):
+  File "issues_get.py", line 92, in <module>
+    issues_get()
+  File "issues_get.py", line 32, in issues_get
+    repo_id=repo.split(" ")[0]
+AttributeError: 'NoneType' object has no attribute 'split'

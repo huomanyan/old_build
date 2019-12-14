@@ -1,0 +1,14 @@
+commits_get.py:94: Warning: (1265L, u"Data truncated for column 'created_at' at row 1")
+  cur.execute(insert_commits, (repo_id, created_at, author,committer,sha))
+https://api.github.com/repos/ipfs/go-ipfs b0a51bf1f5e95554d9525a6b58da5eb2cf6de5d8
+https://api.github.com/repos/ipfs/go-ipfs b0a51bf1f5e95554d9525a6b58da5eb2cf6de5d8
+https://api.github.com/repos/ipfs/go-ipfs 9f146240260ef2ffb8143a47bd1ba8911ef8b477
+https://api.github.com/repos/ipfs/go-ipfs 9f146240260ef2ffb8143a47bd1ba8911ef8b477
+(28, 'Operation timed out after 80003 milliseconds with 324517 out of 353901 bytes received')
+18162315 crawler success
+Traceback (most recent call last):
+  File "commits_get.py", line 104, in <module>
+    commits_get()
+  File "commits_get.py", line 30, in commits_get
+    repo_id=repo.split(" ")[0]
+AttributeError: 'NoneType' object has no attribute 'split'

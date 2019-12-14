@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "commits_get.py", line 104, in <module>
+    commits_get()
+  File "commits_get.py", line 30, in commits_get
+    repo_id=repo.split(" ")[0]
+AttributeError: 'NoneType' object has no attribute 'split'

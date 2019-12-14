@@ -1,0 +1,12 @@
+commits_get.py:94: Warning: (1265L, u"Data truncated for column 'created_at' at row 1")
+  cur.execute(insert_commits, (repo_id, created_at, author,committer,sha))
+https://api.github.com/repos/galaxyproject/galaxy 8a309ceca454f5b74566d33fbde28121d961eea0
+https://api.github.com/repos/galaxyproject/galaxy 8a309ceca454f5b74566d33fbde28121d961eea0
+(28, 'Operation timed out after 80000 milliseconds with 178374 out of 353194 bytes received')
+16472186 crawler success
+Traceback (most recent call last):
+  File "commits_get.py", line 104, in <module>
+    commits_get()
+  File "commits_get.py", line 30, in commits_get
+    repo_id=repo.split(" ")[0]
+AttributeError: 'NoneType' object has no attribute 'split'

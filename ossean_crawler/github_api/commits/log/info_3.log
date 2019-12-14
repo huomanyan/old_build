@@ -1,0 +1,14 @@
+commits_get.py:94: Warning: (1265L, u"Data truncated for column 'created_at' at row 1")
+  cur.execute(insert_commits, (repo_id, created_at, author,committer,sha))
+https://api.github.com/repos/FAForever/fa 154e69346a1b7b8d38a94465c4a406a5b657a7a1
+https://api.github.com/repos/FAForever/fa 66349f9105532af3dae3555e8d6f29e65b631fbc
+https://api.github.com/repos/FAForever/fa 67c695877709ce8d1b53fa468a485b34d237762f
+https://api.github.com/repos/FAForever/fa 6bca76833eb8a79a5db31b28844c1477850df3e2
+https://api.github.com/repos/FAForever/fa 320356d763224fea391ef6d9b3e0aac502c06452
+11855460 crawler success
+Traceback (most recent call last):
+  File "commits_get.py", line 104, in <module>
+    commits_get()
+  File "commits_get.py", line 30, in commits_get
+    repo_id=repo.split(" ")[0]
+AttributeError: 'NoneType' object has no attribute 'split'

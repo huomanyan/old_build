@@ -1,0 +1,15 @@
+commits_get.py:94: Warning: (1265L, u"Data truncated for column 'created_at' at row 1")
+  cur.execute(insert_commits, (repo_id, created_at, author,committer,sha))
+https://api.github.com/repos/OtterBrowser/otter-browser aeefa5f7dbc93eddb071c1958cf8c64d44f415e6
+https://api.github.com/repos/OtterBrowser/otter-browser aeefa5f7dbc93eddb071c1958cf8c64d44f415e6
+https://api.github.com/repos/OtterBrowser/otter-browser 5293de443f61ad10638c7b499bee2ed8363dfe95
+https://api.github.com/repos/OtterBrowser/otter-browser 5293de443f61ad10638c7b499bee2ed8363dfe95
+https://api.github.com/repos/OtterBrowser/otter-browser 171184bfab8253d3396bb64af726a8d4392da6e8
+https://api.github.com/repos/OtterBrowser/otter-browser 171184bfab8253d3396bb64af726a8d4392da6e8
+15854466 crawler success
+Traceback (most recent call last):
+  File "commits_get.py", line 104, in <module>
+    commits_get()
+  File "commits_get.py", line 30, in commits_get
+    repo_id=repo.split(" ")[0]
+AttributeError: 'NoneType' object has no attribute 'split'

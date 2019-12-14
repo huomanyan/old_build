@@ -1,0 +1,11 @@
+[dbMysql]
+host = 106.75.58.94
+port = 3306
+user = root
+password = pdl123456
+
+[dbMysql2]
+host = localhost
+port = 3306
+user = root
+password = 123456

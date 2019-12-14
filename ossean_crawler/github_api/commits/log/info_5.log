@@ -1,0 +1,23 @@
+commits_get.py:94: Warning: (1265L, u"Data truncated for column 'created_at' at row 1")
+  cur.execute(insert_commits, (repo_id, created_at, author,committer,sha))
+https://api.github.com/repos/ARMmbed/mbed-os 0c774294fbfd8d6408a049bd8f3d3a5dcce6ce71
+https://api.github.com/repos/ARMmbed/mbed-os 330e59fb850b83aefe641d40f9cf02873ab00d08
+https://api.github.com/repos/ARMmbed/mbed-os d3963de05d9ddff98b9da2b2a1fee0d51fd9481e
+https://api.github.com/repos/ARMmbed/mbed-os c255ca2959e77ec5e3b6b0eddafb69ee3ef356b6
+https://api.github.com/repos/ARMmbed/mbed-os 94ff741989b40eef41b3995d9953c5982de7fe3f
+https://api.github.com/repos/ARMmbed/mbed-os 96101aed32faf57001159e3760fe02b2a1bf146a
+https://api.github.com/repos/ARMmbed/mbed-os ffb2668411ee7ea31c69a399a20f53fae2edadd2
+https://api.github.com/repos/ARMmbed/mbed-os bd9a31095a22e7bd3617a9b58a002ac7c4b08e81
+https://api.github.com/repos/ARMmbed/mbed-os 0af919a5e97f60593156851ec77035e5d6525fc4
+https://api.github.com/repos/ARMmbed/mbed-os f2ea747280588c9541fa93f534f824911ad6c8df
+https://api.github.com/repos/ARMmbed/mbed-os 4bbd13b9579000c3e3ed858c184db0bcedf0e6eb
+https://api.github.com/repos/ARMmbed/mbed-os 5b0fe44b0dfff07278d9ecfbad771fbc52423299
+https://api.github.com/repos/ARMmbed/mbed-os 6b7f4b998ed1b1a28aa30530570a0fdff2b7dfc1
+https://api.github.com/repos/ARMmbed/mbed-os e38bce5ccd6cfe84b8e80202187a20614dcbdf6e
+25191240 crawler success
+Traceback (most recent call last):
+  File "commits_get.py", line 104, in <module>
+    commits_get()
+  File "commits_get.py", line 30, in commits_get
+    repo_id=repo.split(" ")[0]
+AttributeError: 'NoneType' object has no attribute 'split'

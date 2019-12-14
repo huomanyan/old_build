@@ -1,0 +1,32 @@
+commits_get.py:94: Warning: (1265L, u"Data truncated for column 'created_at' at row 1")
+  cur.execute(insert_commits, (repo_id, created_at, author,committer,sha))
+https://api.github.com/repos/WeblateOrg/weblate 744bfde19e0ef9d48cf52cbe966cf4d405384074
+https://api.github.com/repos/WeblateOrg/weblate 910f670fa43d46359c78c575c6f7d2fe09069852
+https://api.github.com/repos/WeblateOrg/weblate 5fabf1802e7e6a1a078c5381190491085b348bf3
+https://api.github.com/repos/WeblateOrg/weblate a9ad701a3cf7290b48c62ba1cd06dfd123876d13
+https://api.github.com/repos/WeblateOrg/weblate d9eedc4ce4bf3da160bd6c8d4a088bca677ce2dd
+https://api.github.com/repos/WeblateOrg/weblate 81e01264884734c9bf248c488ea2f64cc6fc5452
+https://api.github.com/repos/WeblateOrg/weblate 5581f757d890afd525273ba7022fde87ef7dd41f
+https://api.github.com/repos/WeblateOrg/weblate 3b410fbde6ab0af195c4098562669c77617f3cf0
+https://api.github.com/repos/WeblateOrg/weblate 46c3bae20c7a6fb4e7150e86647b17fa7feef708
+https://api.github.com/repos/WeblateOrg/weblate 86798067987d23f00be85edccf26ee1e65d620ac
+https://api.github.com/repos/WeblateOrg/weblate c6de5efb0a668c00cdc60536d52cd9c5c5e48352
+https://api.github.com/repos/WeblateOrg/weblate ea66885292787db2801e4dcf6d35b7a497e574f7
+https://api.github.com/repos/WeblateOrg/weblate 83456916e662208504444c9999f260e563d98bdc
+https://api.github.com/repos/WeblateOrg/weblate d23bbe685ade1df6f6b6c1dfda839e2c3b6c13b6
+https://api.github.com/repos/WeblateOrg/weblate f52d7ac4b9aeaad63922b86054b62185caf5b286
+https://api.github.com/repos/WeblateOrg/weblate adbfa949b77cce7e3ef20553d8117d6e52d4eb52
+https://api.github.com/repos/WeblateOrg/weblate e5a8eacd3bb3f635ce5595b36025340efe8411a8
+https://api.github.com/repos/WeblateOrg/weblate 368396ed4a6853517d05899bf5a177707d668104
+https://api.github.com/repos/WeblateOrg/weblate b1d40111dc25d5af3218ba2cd3331e91a68101cb
+https://api.github.com/repos/WeblateOrg/weblate 48601c1f8c4fb3a7e9107760ba5b25e3b702067b
+https://api.github.com/repos/WeblateOrg/weblate b64f5d4d549960ba845e8920b505c8cd1690ff93
+https://api.github.com/repos/WeblateOrg/weblate a5bcf1925cf038f2527cc1694b145b93b766af30
+https://api.github.com/repos/WeblateOrg/weblate 58e80fbc4fe7cb80279bc40f55c4cc6369d4ce5d
+52574962 crawler success
+Traceback (most recent call last):
+  File "commits_get.py", line 104, in <module>
+    commits_get()
+  File "commits_get.py", line 30, in commits_get
+    repo_id=repo.split(" ")[0]
+AttributeError: 'NoneType' object has no attribute 'split'
